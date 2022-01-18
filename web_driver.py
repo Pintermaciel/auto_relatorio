@@ -8,7 +8,6 @@ driver.get('https://supre.nexello.com.br/v2/login')
 time.sleep(2)
 
 #login
-
 username = driver.find_element_by_css_selector('#mat-input-1')
 password = driver.find_element_by_css_selector('#mat-input-0')
 
